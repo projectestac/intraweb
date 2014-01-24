@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-31 09:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:3 version.php:4
+msgid "iw_bluegrace"
+msgstr ""
+
+#: version.php:5
+msgid "Intraweb BlueGrace"
+msgstr ""
+
+#: version.php:7
+msgid ""
+"Designed by Vladimir Prelovac and modified by Albert Bachiller. Xanthia "
+"theme by Charlie and modified by Toni Ginard."
+msgstr ""
+
+#: templates/admin.htm:31 templates/master.htm:31 templates/home.htm:31
+msgid "Home"
+msgstr ""
+
+#: templates/admin.htm:32 templates/master.htm:32 templates/home.htm:32
+msgid "Search"
+msgstr ""
+
+#: templates/admin.htm:34 templates/master.htm:34 templates/home.htm:34
+msgid "Account Panel"
+msgstr ""
+
+#: templates/admin.htm:35 templates/master.htm:35 templates/home.htm:35
+msgid "Log out"
+msgstr ""
+
+#: templates/admin.htm:57 templates/master.htm:62 templates/home.htm:67
+msgid "Powered by"
+msgstr ""
+
+#: templates/modules/News/news_user_articlecontent.htm:12
+#: templates/modules/News/news_user_index.htm:26
+msgid "Posted by"
+msgstr ""
+
+#: templates/modules/News/news_user_articlecontent.htm:12
+#: templates/modules/News/news_user_index.htm:26
+msgid "on"
+msgstr ""
+
+#: templates/modules/News/news_user_articlecontent.htm:22
+#: templates/modules/News/news_user_index.htm:20
+msgid "reads"
+msgstr ""

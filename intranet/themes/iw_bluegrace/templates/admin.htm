@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<!--[lang]-->" lang="<!--[lang]-->">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=<!--[charset]-->"/>
+	<meta name="description" content="<!--[slogan]-->"/>
+	<meta name="keywords" content="<!--[keywords]-->"/>
+	<meta name="robots" content="index,follow"/>
+	<meta name="author" content="<!--[sitename]-->"/>
+	<meta name="copyright" content="Copyright (c) 2008 by <!--[sitename]-->"/>
+	<meta name="generator" content="zikula - http://zikula.org"/>
+	<title><!--[title]--></title>
+	<link rel="stylesheet" href="<!--[$themepath]-->/style/style.css" type="text/css"/>
+	<link rel="alternate" title="<!--[title]-->" href="backend.php" type="application/rss+xml" />
+</head>
+
+<body>
+	<!--[pnuserloggedin assign="logged"]-->
+	<div id="wrap">
+	<div id="headerwrap">
+		<div id="logotop">&nbsp;
+			<!--[* <img src="<!--[$imagepath]-->/logo.png" width="165" height="29" alt="logotip Departament" title="logotip Departament" /> *]-->
+		</div>
+		
+	  <!--[pnmodavailable modname="iw_menu" assign="iw_menu"]-->
+	  <!--[if $iw_menu neq ""]-->
+	  <div id="theme_top">
+	    <!--[blockposition name=top]-->
+	  </div>
+	  <!--[else]-->
+		<div id="menutop">
+			<ul>
+				<li class="page_item"><a href="index.php" title="<!--[gt text="Home" domain="theme_iw_bluegrace"]-->"><!--[gt text="Home" domain="theme_iw_bluegrace"]--></a></li>
+				<li class="page_item"><a href="index.php?module=Search" title="<!--[gt text="Search" domain="theme_iw_bluegrace"]-->"><!--[gt text="Search" domain="theme_iw_bluegrace"]--></a></li>
+				<!--[if $logged]-->
+					<li class="page_item"><a href="index.php?module=Profile" title="<!--[gt text="Account Panel" domain="theme_iw_bluegrace"]-->"><!--[gt text="Account Panel" domain="theme_iw_bluegrace"]--></a></li>
+					<li class="page_item"><a href="index.php?module=Usuaris&func=logout" title="<!--[gt text="Log out" domain="theme_iw_bluegrace"]-->"><!--[gt text="Log out" domain="theme_iw_bluegrace"]--></a></li>
+				<!--[/if]-->
+			</ul>
+		</div>	
+	<!--[/if]-->	
+	
+
+		<div id="header">
+			<div id="btitle">
+				<a href="index.php"><!--[sitename]--></a>
+			</div>
+		</div>
+	</div>
+		<div id="zadmin">
+			<!--[$maincontent]-->	       
+		</div>
+		<div style="clear:both;">&nbsp;</div>
+	</div> 
+
+	<div id="footer">
+		<div id="footerlogobar">
+			<div class="footerimg"><a href="http://phobos.xtec.cat/intraweb" target="_blank"><img src="<!--[$imagepath]-->/logoiw.png" width="138" height="35" /></a></div>
+			<div class="footerimg"><a href="http://www.xtec.cat" target="_blank"><img src="<!--[$imagepath]-->/logoxtec.png" width="119" height="28" /></a></div>
+		</div>
+		<div id="footermenu">
+			<a href="http://zikula.org" target="_blank"><!--[gt text="Powered by" domain="theme_iw_bluegrace"]-->&nbsp;<a href="http://zikula.org" target="_blank">Zikula</a></a>
+		</div>
+	</div>
+
+	<!--[iwvhmenu]-->
+
+</body>
+</html>

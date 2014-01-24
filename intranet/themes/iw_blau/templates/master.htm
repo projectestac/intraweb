@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<!--[lang]-->" lang="<!--[lang]-->">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=<!--[charset]-->" />
+	<meta name="description" content="<!--[slogan]-->" />
+	<meta name="keywords" content="<!--[keywords]-->" />
+	<meta name="robots" content="index, follow" />
+	<meta name="author" content="<!--[sitename]-->" />
+	<meta name="copyright" content="Copyright (c) 2008 by <!--[sitename]-->" />
+	<meta name="generator" content="Zikula <!--[pnversion]--> - http://zikula.org" />
+	<meta name="keywords" content="<!--[keywords]-->" />
+	<title><!--[title]--></title>
+	<link rel="stylesheet" href="<!--[$themepath]-->/style/<!--[$stylesheet]-->" type="text/css" />
+</head>
+
+<body>
+	<div id="wrapper" style="background:<!--[$bgcolor]-->; width:<!--[$pagewidth]-->;">
+		<div id="themelogo" style="background:#dbd4a6;">
+			<a href="index.php">
+				<img src="<!--[$themepath]-->/images/logo.jpg" alt="Logo" title="<!--[gt text="Welcome to" domain="theme_iw_blau"]--> <!--[sitename]-->" />
+			</a>
+
+			<!--[pnmodavailable modname="iw_menu" assign="iw_menu"]-->
+			  <!--[if $iw_menu ne ""]-->
+			  <div id="theme_top">
+				<!--[blockposition name=top]-->
+			  </div>
+			  <!--[else]-->
+			<div id="menu" style="background:<!--[$color4]-->; height:25px;">
+				<!--[iwvhmenu]-->&nbsp;
+			</div>
+			  <!--[/if]-->	
+		</div>
+		<div>
+			<table style="width:100%;">
+				<tr>
+					<td style="width:<!--[$lcolwidth]-->;">
+						<!--[blockposition name=left]-->
+					</td>
+					<td style="padding:0px 5px 0px 5px;">
+						<!--[$maincontent]-->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="clearing" style="background:<!--[$color4]-->;">
+			&nbsp;
+		</div>
+		<div class="clearing" style="background:<!--[$color2]-->;">
+			&nbsp;
+		</div>
+	</div>
+	<div id="themefooter">
+		   <!--[$footmesg]-->
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,1120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: Files\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-26 14:24+0100\n"
+"PO-Revision-Date: 2010-04-09 11:52+0100\n"
+"Last-Translator: Carsten Volmer <carsten@zikula.org>\n"
+"Language-Team: Carsten Volmer <carsten@zikula.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 1.5.1\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Country: Germany\n"
+
+#: pnuserapi.php:32
+msgid "Error! Could not load items."
+msgstr "Fehler! Die Einträge konnten nicht geladen werden."
+
+#: pnuserapi.php:58
+msgid "Error! Could not create the new item."
+msgstr "Fehler! Der neue Eintrag konnte nicht erstellt werden."
+
+#: pnuserapi.php:90
+msgid "Error! Could not update the used disk."
+msgstr "Fehler! Der verbrauchte Speicherplatz konnte nicht aktualisiert werden."
+
+#: pnuserapi.php:106
+msgid "Sorry! No authorization to access this module."
+msgstr "Leider fehlt die Berechtigung, um auf dieses Modul zuzugreifen."
+
+#: pninit.php:114 pnuser.php:1637 pnuser.php:1650
+msgid "Directory creation error"
+msgstr "Fehler beim Erstellen des Verzeichnisses"
+
+#: pnuser.php:40
+msgid "The server directory does not exist."
+msgstr "Das Server-Verzeichnis existiert nicht."
+
+#: pnuser.php:47 pnuser.php:63 pnuser.php:154 pnuser.php:190 pnuser.php:199
+#: pnuser.php:326 pnuser.php:379 pnuser.php:460 pnuser.php:614 pnuser.php:722
+#: pnuser.php:808 pnuser.php:847 pnuser.php:892 pnuser.php:997 pnuser.php:1034
+#: pnuser.php:1071 pnuser.php:1167 pnuser.php:1205 pnuser.php:1276
+#: pnuser.php:1325 pnuser.php:1408 pnuser.php:1456 pnuser.php:1542
+#: pnuser.php:1730 pnuser.php:1785 pnexternal/getFiles.php:39
+#: pnexternal/getFiles.php:57
+msgid "Invalid folder"
+msgstr "Ungültiges Verzeichnis"
+
+#: pnuser.php:56 pnexternal/getFiles.php:50
+msgid "It is not possible to browse this folder"
+msgstr "Es ist nicht möglich, dieses Verzeichnis zu durchsuchen"
+
+#: pnuser.php:119
+msgid "More than 200 Mb"
+msgstr "Über 200 Mb"
+
+#: pnuser.php:121
+#, php-format
+msgid "%s Mb"
+msgstr "%s Mb"
+
+#: pnuser.php:123
+#, php-format
+msgid "%s Kb"
+msgstr "%s Kb"
+
+#: pnuser.php:125
+#, php-format
+msgid "%s bytes"
+msgstr "%s Bytes"
+
+#: pnuser.php:239
+msgid "Unzip file"
+msgstr "Datei entpacken"
+
+#: pnuser.php:246
+msgid "List of the file content"
+msgstr "Inhalt der Datei anzeigen"
+
+#: pnuser.php:252
+msgid "Download file"
+msgstr "Datei runterladen"
+
+#: pnuser.php:260 pntemplates/Files_user_editFile.htm:9
+msgid "Edit file"
+msgstr "Datei bearbeiten"
+
+#: pnuser.php:269
+msgid "Create Thumbnail"
+msgstr "Thumbnail erstellen"
+
+#: pnuser.php:277 pntemplates/.tmp_Files_external_getFiles.htm.55364~:95
+#: pntemplates/Files_external_getFiles.htm:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:91
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:89
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:95
+#: pntemplates/Files_user_filesList.htm:89
+#: pntemplates/.tmp_Files_user_renameFile.htm.86581~:9
+#: pntemplates/.tmp_Files_user_renameFile.htm.86581~:20
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:95
+#: pntemplates/Files_user_renameFile.htm:9
+#: pntemplates/Files_user_renameFile.htm:20
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:95
+msgid "Rename file"
+msgstr "Datei umbenennen"
+
+#: pnuser.php:284 pntemplates/.tmp_Files_user_filesList.htm.19034~:90
+#: pntemplates/Files_user_filesList.htm:90
+#: pntemplates/.tmp_Files_user_deleteListFile.htm.12378~:9
+#: pntemplates/Files_user_deleteListFile.htm:9
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: pnuser.php:319 pnuser.php:374 pnuser.php:453 pnuser.php:607 pnuser.php:705
+#: pnuser.php:802 pnuser.php:841 pnuser.php:886 pnuser.php:985 pnuser.php:1029
+#: pnuser.php:1066 pnuser.php:1162 pnuser.php:1200 pnuser.php:1270
+#: pnuser.php:1319 pnuser.php:1400 pnuser.php:1450 pnuser.php:1534
+#: pnuser.php:1605 pnuser.php:1681 pnuser.php:1725 pnuser.php:1779
+msgid "Error! You are not authorized to access this module."
+msgstr "Fehler! Keine Berechtigung, auf dieses Modul zuzugreifen."
+
+#: pnuser.php:332 pnuser.php:900
+msgid "File not found"
+msgstr "Datei nicht gefunden"
+
+#: pnuser.php:469
+msgid "It is not possible to create a thumbnail from this file."
+msgstr "Von dieser Datei kann kein Thumbnail erstellt werden."
+
+#: pnuser.php:481
+msgid "Error! It has been possible to read the file."
+msgstr "Fehler! Die Datei konnte nicht gelesen werden."
+
+#: pnuser.php:509
+msgid "Error! Saving the image in memory."
+msgstr "Fehler! Das Bild konnte nicht erstellt werden."
+
+#: pnuser.php:519 pnuser.php:535 pnuser.php:539 pnuser.php:545 pnuser.php:549
+#: pnuser.php:553 pnuser.php:559 pnuser.php:572 pnuser.php:576
+msgid "Error! Creating the thumbnail of the image."
+msgstr "Fehler! Thumbnail konnte nicht erstellt werden."
+
+#: pnuser.php:585
+msgid "Thumbnail created."
+msgstr "Thumbnail erstellt."
+
+#: pnuser.php:626
+#, php-format
+msgid "Sorry! The file %s is not editable."
+msgstr "Leider ist Datei %s nicht editierbar."
+
+#: pnuser.php:635
+#, php-format
+msgid "Sorry! The file %s has not been found."
+msgstr "Leider konnte Datei %s nicht gefunden werden."
+
+#: pnuser.php:646
+#, php-format
+msgid "Error! It has not been possible to read the content of the file %s."
+msgstr "Fehler! Es war nicht möglich den Inhalt von Datei %s zu lesen."
+
+#: pnuser.php:676
+#, php-format
+msgid "Error! It has not been possible to write the content to the file %s."
+msgstr "Fehler! Es war nicht möglich, Inhalte in Datei %s zu schreiben."
+
+#: pnuser.php:683
+msgid "File successfully edited"
+msgstr "Datei erfolgreich bearbeitet"
+
+#: pnuser.php:712
+msgid "You can not delete the users folder!"
+msgstr "Der Ordner mit Benutzerdaten kann nicht gelöscht werden!"
+
+#: pnuser.php:770
+msgid "Failed to deleted"
+msgstr "Löschen fehlgeschlagen"
+
+#: pnuser.php:775
+msgid "Error deleting file"
+msgstr "Fehler beim Löschen der Datei"
+
+#: pnuser.php:786
+msgid "Files successfully removed"
+msgstr "Die Dateien wurden erfolgreich entfernt"
+
+#: pnuser.php:938
+#, php-format
+msgid ""
+"The extension <strong>%s</strong> is not allowed.  The allowed extensions "
+"are: <strong>%s</strong>."
+msgstr ""
+"Die Erweiterung <strong>%s</strong> ist nicht zugelassen. Zugelassene "
+"Erweiterungen sind: <strong>%s</strong>."
+
+#: pnuser.php:946
+msgid "Failed to rename"
+msgstr "Umbenennung fehlgeschlagen"
+
+#: pnuser.php:963
+msgid "Changed filename successfully"
+msgstr "Die Datei wurde erfolgreich umbenannt"
+
+#: pnuser.php:1004
+msgid "Directory Create Error"
+msgstr "Fehler beim Erstellen des Verzeichnisses"
+
+#: pnuser.php:1007
+msgid "Directory created"
+msgstr "Verzeichnis erstellt"
+
+#: pnuser.php:1088 pnadmin.php:109
+#, php-format
+msgid "The directory <strong>%s</strong> does not exist"
+msgstr "Das Verzeichnis <strong>%s</strong> gibt es nicht"
+
+#: pnuser.php:1096
+#, php-format
+msgid ""
+"The extension <strong>%s</strong> is not allowed. The allowed extensions "
+"are: <strong>%s</strong>."
+msgstr ""
+"Die Erweiterung <strong>%s</strong> ist nicht zugelassen. Zugelassene "
+"Erweiterungen sind: <strong>%s</strong>."
+
+#: pnuser.php:1105
+#, php-format
+msgid "The file is to big. The maximum size allowed is \"%s\" bytes."
+msgstr "Die Datei ist zu groß. Die zugelassene Größe ist %s Bytes."
+
+#: pnuser.php:1117
+msgid "You have not enough disk space to upload the file."
+msgstr ""
+"Es steht nicht ausreichend Speicher zur Verfügung, um diese Datei "
+"hochzuladen."
+
+#: pnuser.php:1136
+msgid "Failed to upload"
+msgstr "Upload fehlgeschlagen"
+
+#: pnuser.php:1141
+msgid "Uploaded file success"
+msgstr "Die Datei wurde erfolgreich hochgeladen"
+
+#: pnuser.php:1221
+msgid "No selected action"
+msgstr "Keine Aktion ausgewählt"
+
+#: pnuser.php:1227
+msgid "No selected file or directory"
+msgstr "Weder Datei noch Verzeichnis ausgewählt"
+
+#: pnuser.php:1364
+msgid "No file name given"
+msgstr "Dateiname fehlt"
+
+#: pnuser.php:1376
+msgid "Error creating ZIP file"
+msgstr "Fehler beim Erstellen der ZIP-Datei"
+
+#: pnuser.php:1379
+msgid "Successfully zipped"
+msgstr "Packen erfolgreich"
+
+#: pnuser.php:1416 pnuser.php:1550
+msgid "Failed to list content zip file."
+msgstr "Der Inhalt der Zip-Datei konnte nicht angezeigt werden."
+
+#: pnuser.php:1500 pnuser.php:1507
+msgid "Error moving"
+msgstr "Fehler beim Verschieben"
+
+#: pnuser.php:1515
+msgid "Successfully moved"
+msgstr "Erfolgreich verschoben"
+
+#: pnuser.php:1564
+#, php-format
+msgid ""
+"The zip file contains at least one file with the extension <strong>%s</"
+"strong> which is not allowed. The allowed extensions are: <strong>%s</"
+"strong>."
+msgstr ""
+"Die ZIP-Datei enthält mindestens eine Datei mit der Erweiterung <strong>%"
+"s</strong>, welche nicht zugelassen ist. Zugelassene Erweiterungen sind: "
+"<strong>%s</strong>."
+
+#: pnuser.php:1579
+#, php-format
+msgid ""
+"You have not enough disk space to unzip the file. You need %s extra bytes."
+msgstr ""
+"Es steht nicht genügend Speicher zur Verfügung, um diese Datei zu entpacken. "
+"Es werden %s zusätzliche Bytes benötigt."
+
+#: pnuser.php:1583
+msgid "Failed to unzip"
+msgstr "Entpacken fehlgeschlagen"
+
+#: pnuser.php:1590
+msgid "Successfully unzipped"
+msgstr "Entpacken erfolgreich"
+
+#: pnuser.php:1617 pntemplates/Files_init.htm:46
+#: pntemplates/.tmp_Files_init.htm.59709~:46
+#, php-format
+msgid "The folder <strong>%s</strong> has not been found."
+msgstr "Der Ordner <strong>%s</strong> wurde nicht gefunden."
+
+#: pnuser.php:1628
+msgid "Directory creation error. Please contact with the administrator"
+msgstr ""
+"Fehler beim Erstellen des Verzeichnisses. Bitte den Administrator "
+"kontaktieren"
+
+#: pnuser.php:1662
+#, php-format
+msgid "The \"%s\" directory does not exist or is not writable."
+msgstr "Das Verzeichnis \"%s\" gibt es nicht oder ist nicht beschreibbar."
+
+#: pnaccountapi.php:28 pnversion.php:25
+msgid "File Manager"
+msgstr "Datei-Manager"
+
+#: pnexternal/getFiles.php:18
+msgid "Sorry! You have not been granted access to this page."
+msgstr "Leider fehlt die Berechtigung diese Seite aufzurufen."
+
+#: pnexternal/getFiles.php:30
+msgid ""
+"The server directory does not exist. Contact with the website administrator "
+"to solve this problem."
+msgstr ""
+"Das Server-Verzeichnis ist nicht vorhanden. Zur Lösung dieses Problem bitte "
+"den Administrator dieser Website kontaktieren."
+
+#: pntemplates/plugins/function.filesmenulinks.php:22
+msgid "Manage Files"
+msgstr "Dateien verwalten"
+
+#: pntemplates/plugins/function.filesmenulinks.php:25
+msgid "Module configuration"
+msgstr "Modul-Konfiguration"
+
+#: pnajax.php:29 pnajax.php:51 pnajax.php:154
+msgid "No folder defined."
+msgstr "Kein Ordner angegeben."
+
+#: pnajax.php:86 pnajax.php:121
+msgid "no group found"
+msgstr "keine Gruppe gefunden"
+
+#: pnajax.php:90
+msgid "no quota defined"
+msgstr "kein Limit angegeben"
+
+#: pnajax.php:146
+msgid "no image found"
+msgstr "kein Bild gefunden"
+
+#: pnajax.php:150
+msgid "no size factor defined"
+msgstr "kein Größenfaktor angegeben"
+
+#: pnadmin.php:117
+#, php-format
+msgid "The directory <strong>%s</strong> for users does not exist"
+msgstr "Das Verzeichnis <strong>%s</strong> für Benutzer ist nicht vorhanden"
+
+#: pnadmin.php:124
+msgid "The configuration has been updated"
+msgstr "Die Konfiguration wurde aktualisiert"
+
+#: pnversion.php:24
+msgid "File manager for Zikula sites."
+msgstr "Datei-Manager für Zikula-Websites."
+
+#: pnversion.php:26
+msgid "files"
+msgstr "files"
+
+#: pntemplates/.tmp_Files_user_uploadFile.htm.77085~:8
+#: pntemplates/Files_user_uploadFile.htm:9
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:21
+#: pntemplates/Files_external_getFiles.htm:21
+#: pntemplates/.tmp_Files_user_uploadFile.htm.51329~:8
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:17
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:17
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:21
+#: pntemplates/Files_user_filesList.htm:17
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:21
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:21
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:21
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:21
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+#: pntemplates/.tmp_Files_user_uploadFile.htm.77085~:10
+#: pntemplates/Files_user_uploadFile.htm:11
+#: pntemplates/.tmp_Files_user_uploadFile.htm.51329~:10
+msgid "File name"
+msgstr "Dateiname"
+
+#: pntemplates/.tmp_Files_user_uploadFile.htm.77085~:13
+#: pntemplates/Files_user_uploadFile.htm:14
+#: pntemplates/Files_admin_conf.htm:51
+msgid "Allowed extensions (comma separated list)"
+msgstr "Zugelassene Erweiterungen (durch Komma getrenne Liste)"
+
+#: pntemplates/.tmp_Files_user_uploadFile.htm.77085~:15
+#: pntemplates/Files_user_uploadFile.htm:16
+#: pntemplates/Files_user_listContentZip.htm:18
+#: pntemplates/Files_user_listContentZip.htm:20
+#: pntemplates/Files_user_editFile.htm:25
+#: pntemplates/.tmp_Files_user_createZipListFile.htm.9927~:32
+#: pntemplates/.tmp_Files_user_uploadFile.htm.51329~:15
+#: pntemplates/Files_init.htm:35
+#: pntemplates/.tmp_Files_user_listContentZip.htm.11546~:18
+#: pntemplates/.tmp_Files_user_listContentZip.htm.11546~:20
+#: pntemplates/Files_user_createZipListFile.htm:33
+#: pntemplates/.tmp_Files_user_deleteListFile.htm.12378~:32
+#: pntemplates/Files_user_createDir.htm:15
+#: pntemplates/.tmp_Files_user_renameFile.htm.86581~:27
+#: pntemplates/Files_user_renameFile.htm:27
+#: pntemplates/.tmp_Files_init.htm.59709~:35
+#: pntemplates/.tmp_Files_user_moveListFile.htm.67467~:34
+#: pntemplates/Files_user_deleteListFile.htm:32
+#: pntemplates/Files_user_moveListFile.htm:35
+#: pntemplates/.tmp_Files_user_createDir.htm.87027~:14
+msgid "Accept"
+msgstr "Bestätigen"
+
+#: pntemplates/.tmp_Files_user_uploadFile.htm.77085~:16
+#: pntemplates/Files_user_uploadFile.htm:17
+#: pntemplates/Files_user_editFile.htm:27
+#: pntemplates/Files_user_editFile.htm:29
+#: pntemplates/.tmp_Files_user_createZipListFile.htm.9927~:34
+#: pntemplates/.tmp_Files_user_createZipListFile.htm.9927~:36
+#: pntemplates/.tmp_Files_user_uploadFile.htm.51329~:16
+#: pntemplates/Files_user_createZipListFile.htm:35
+#: pntemplates/Files_user_createZipListFile.htm:37
+#: pntemplates/.tmp_Files_user_deleteListFile.htm.12378~:34
+#: pntemplates/.tmp_Files_user_deleteListFile.htm.12378~:36
+#: pntemplates/Files_user_createDir.htm:16
+#: pntemplates/.tmp_Files_user_renameFile.htm.86581~:29
+#: pntemplates/.tmp_Files_user_renameFile.htm.86581~:31
+#: pntemplates/Files_user_renameFile.htm:29
+#: pntemplates/Files_user_renameFile.htm:31
+#: pntemplates/.tmp_Files_user_moveListFile.htm.67467~:35
+#: pntemplates/.tmp_Files_user_moveListFile.htm.67467~:37
+#: pntemplates/Files_user_deleteListFile.htm:34
+#: pntemplates/Files_user_deleteListFile.htm:36
+#: pntemplates/Files_user_moveListFile.htm:37
+#: pntemplates/Files_user_moveListFile.htm:39
+#: pntemplates/.tmp_Files_user_createDir.htm.87027~:15
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.84085~:15
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.12828~:15
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.33520~:14
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.79827~:15
+#: pntemplates/Files_external_getFilesImgContent.htm:15
+msgid "Reduce size"
+msgstr "Verkleinern"
+
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.84085~:18
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.12828~:18
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.33520~:17
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.79827~:18
+#: pntemplates/Files_external_getFilesImgContent.htm:18
+msgid "Increase size"
+msgstr "Vergrößern"
+
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.84085~:20
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.12828~:20
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.33520~:19
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.79827~:20
+#: pntemplates/Files_external_getFilesImgContent.htm:20
+msgid "Delete thumbnail"
+msgstr "Thumbnail löschen"
+
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.84085~:24
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.84085~:28
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:118
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.12828~:24
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.12828~:28
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:123
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:127
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.33520~:23
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.33520~:26
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.79827~:24
+#: pntemplates/.tmp_Files_external_getFilesImgContent.htm.79827~:28
+#: pntemplates/Files_external_getFilesImgContent.htm:24
+#: pntemplates/Files_external_getFilesImgContent.htm:28
+msgid "Insert"
+msgstr "Einfügen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:10
+#: pntemplates/Files_user_errorMsg.htm:10
+#: pntemplates/Files_external_getFiles.htm:10
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:6
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:6
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:10
+#: pntemplates/Files_user_filesList.htm:6
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:10
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:10
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:10
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:10
+msgid "List of files in folder"
+msgstr "Liste mit Dateien im Ordner"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:16
+#: pntemplates/Files_external_getFiles.htm:16
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:12
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:12
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:16
+#: pntemplates/Files_user_filesList.htm:12
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:16
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:16
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:16
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:16
+msgid "It is not possible to write in this directory. Make it writable."
+msgstr ""
+"Dieses Verzeichnis konnte nicht beschrieben werden. Bitte Schreibrechte "
+"zuweisen."
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:20
+#: pntemplates/Files_external_getFiles.htm:20
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:16
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:16
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:20
+#: pntemplates/Files_user_filesList.htm:16
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:20
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:20
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:20
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:20
+msgid "Create directory"
+msgstr "Verzeichnis erstellen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:23
+#: pntemplates/Files_external_getFiles.htm:23
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:19
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:19
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:23
+#: pntemplates/Files_user_filesList.htm:19
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:23
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:23
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:23
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:23
+msgid "Set as not public folder"
+msgstr "Ordner als nicht-öffentlich kennzeichnen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:25
+#: pntemplates/Files_external_getFiles.htm:25
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:21
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:21
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:25
+#: pntemplates/Files_user_filesList.htm:21
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:25
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:25
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:25
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:25
+msgid "Set as a public folder"
+msgstr "Ordner als öffentlich kennzeichnen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:31
+#: pntemplates/Files_external_getFiles.htm:31
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:27
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:27
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:31
+#: pntemplates/Files_user_filesList.htm:27
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:31
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:31
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:31
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:31
+msgid "Disk use:"
+msgstr "Belegter Speicher:"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:34
+#: pntemplates/Files_external_getFiles.htm:34
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:30
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:30
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:34
+#: pntemplates/Files_user_filesList.htm:30
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:34
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:34
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:34
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:34
+#, php-format
+msgid "%s%% - %s of %s"
+msgstr "%s%% - %s von %s"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:43
+#: pntemplates/Files_external_getFiles.htm:43
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:39
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:39
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:43
+#: pntemplates/Files_user_filesList.htm:39
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:43
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:43
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:43
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:43
+msgid ""
+"The files in this directory are accessible directly from the navigator. "
+"Anybody can access to them with the URL:"
+msgstr ""
+"Auf die Dateien dieses Verzeichnisses kann direkt mit dem Browser "
+"zugegriffen werden. Jeder kann auf sie mit folgender URL zugreifen:"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:44
+#: pntemplates/Files_external_getFiles.htm:44
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:40
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:40
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:44
+#: pntemplates/Files_user_filesList.htm:40
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:44
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:44
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:44
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:44
+msgid "file_name"
+msgstr "dateiname"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:55
+#: pntemplates/Files_external_getFiles.htm:55
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:51
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:49
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:55
+#: pntemplates/Files_user_filesList.htm:49
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:55
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:55
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:55
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:55
+msgid "Name"
+msgstr "Name"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:56
+#: pntemplates/Files_external_getFiles.htm:56
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:52
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:50
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:56
+#: pntemplates/Files_user_filesList.htm:50
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:56
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:56
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:56
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:56
+msgid "Size"
+msgstr "Größe"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:57
+#: pntemplates/Files_external_getFiles.htm:57
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:53
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:51
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:57
+#: pntemplates/Files_user_filesList.htm:51
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:57
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:57
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:57
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:57
+msgid "Modified"
+msgstr "Geändert"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:58
+#: pntemplates/Files_external_getFiles.htm:58
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:54
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:52
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:58
+#: pntemplates/Files_user_filesList.htm:52
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:58
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:58
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:58
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:58
+msgid "Action"
+msgstr "Aktion"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:95
+#: pntemplates/Files_external_getFiles.htm:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:91
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:89
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:95
+#: pntemplates/Files_user_filesList.htm:89
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:95
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:95
+msgid "Rename folder"
+msgstr "Ordner umbenennen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:96
+#: pntemplates/Files_external_getFiles.htm:96
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:92
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:90
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:96
+#: pntemplates/Files_user_filesList.htm:90
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:96
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:96
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:96
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:96
+msgid "Delete folder"
+msgstr "Ordner löschen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:119
+#: pntemplates/Files_external_getFiles.htm:119
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:111
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:104
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:115
+#: pntemplates/Files_user_filesList.htm:104
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:119
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:119
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:119
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:119
+msgid "Bytes"
+msgstr "Bytes"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:135
+#: pntemplates/Files_external_getFiles.htm:135
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:130
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:119
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:140
+#: pntemplates/Files_user_filesList.htm:119
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:135
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:135
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:135
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:135
+msgid "-- Selected files --"
+msgstr "-- Ausgewählte Dateien --"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:136
+#: pntemplates/Files_external_getFiles.htm:136
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:131
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:120
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:141
+#: pntemplates/Files_user_filesList.htm:120
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:136
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:136
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:136
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:136
+msgid "Move them to another folder"
+msgstr "In anderen Ordner verschieben"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:137
+#: pntemplates/Files_external_getFiles.htm:137
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:132
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:121
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:142
+#: pntemplates/Files_user_filesList.htm:121
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:137
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:137
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:137
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:137
+msgid "Delete them"
+msgstr "Löschen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:138
+#: pntemplates/Files_external_getFiles.htm:138
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:133
+#: pntemplates/.tmp_Files_user_filesList.htm.19034~:122
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:143
+#: pntemplates/Files_user_filesList.htm:122
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:138
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:138
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:138
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:138
+msgid "Create a zip file with them"
+msgstr "Zip-Datei erstellen"
+
+#: pntemplates/.tmp_Files_external_getFiles.htm.55364~:150
+#: pntemplates/Files_external_getFiles.htm:150
+#: pntemplates/.tmp_Files_external_getFiles.htm.87851~:145
+#: pntemplates/.tmp_Files_external_getFiles.htm.47829~:155
+#: pntemplates/.tmp_Files_external_getFiles.htm.35755~:150
+#: pntemplates/.tmp_Files_external_getFiles.htm.21828~:150
+#: pntemplates/.tmp_Files_external_getFiles.htm.27799~:150
+#: pntemplates/.tmp_Files_external_getFiles.htm.16673~:150
+msgid ""
+"The values displayed in each image are its real size \"width x height\" and "
+"the factor of the modification of its size (value). The value 1 means that "
+"the image is in its natural size. A value upper than 1 means that the image "
+"has been reduced and a value lower than 1 means that the image has been "
+"increased."
+msgstr ""
+"Für jedes Bild werden die originale Größe (Breite x Höhe) sowie der Faktor "
+"zur Veränderung der Größe angezeigt. Bei einem Wert von 1 hat ein Bild seine "
+"originale Größe. Bei einem Wert größer als 1 wurde das Bild verkleinert, "
+"bei einem Wert unter 1 vergrößert."
+
+#: pntemplates/Files_user_listContentZip.htm:9
+#: pntemplates/.tmp_Files_user_listContentZip.htm.11546~:9
+msgid "The list of the archive content"
+msgstr "Inhalt des Archivs"
+
+#: pntemplates/Files_user_editFile.htm:20
+#, php-format
+msgid "%s/%s"
+msgstr "%s/%s"
+
+#: pntemplates/Files_admin_quotasTable.htm:5
+msgid "Group"
+msgstr "Gruppe"
+
+#: pntemplates/Files_admin_quotasTable.htm:6
+msgid "Quota (Mb)"
+msgstr "Limit (Mb)"
+
+#: pntemplates/Files_admin_quotasTable.htm:7
+msgid "Delete"
+msgstr "Löschen"
+
+#: pntemplates/Files_admin_quotasTable.htm:18
+msgid "Delete disk quota"
+msgstr "Speicherlimit löschen"
+
+#: pntemplates/Files_admin_quotasTable.htm:28
+msgid "Assign a new disk quota"
+msgstr "Neues Speicherlimit zuweisen"
+
+#: pntemplates/Files_admin_quotasTable.htm:35
+msgid "(A value of -1 means no disk quota assigned)"
+msgstr "(ein Wert von -1 bedeutet, dass kein Speicherlimit zugewiesen wurde)"
+
+#: pntemplates/.tmp_Files_user_createZipListFile.htm.9927~:9
+#: pntemplates/Files_user_createZipListFile.htm:9
+msgid "Create zip file"
+msgstr "Zip-Datei erstellen"
+
+#: pntemplates/.tmp_Files_user_createZipListFile.htm.9927~:18
+#: pntemplates/Files_user_createZipListFile.htm:19
+msgid "Generates a zip with this content"
+msgstr "Zip-Datei mit diesen Inhalten erstellen"
+
+#: pntemplates/.tmp_Files_user_createZipListFile.htm.9927~:26
+#: pntemplates/Files_user_createZipListFile.htm:27
+msgid "Filename"
+msgstr "Dateiname"
+
+#: pntemplates/Files_admin_newQuotaForm.htm:4
+msgid "Choose a group..."
+msgstr "Gruppe auswählen..."
+
+#: pntemplates/Files_admin_newQuotaForm.htm:10
+#: pntemplates/Files_admin_conf.htm:83
+msgid "Mb"
+msgstr "Mb"
+
+#: pntemplates/Files_admin_newQuotaForm.htm:13
+#: pntemplates/Files_admin_conf.htm:88
+msgid "Save the changes"
+msgstr "Änderungen speichern"
+
+#: pntemplates/Files_admin_newQuotaForm.htm:17
+msgid "-1 means no disk quota limit"
+msgstr "-1 bedeutet ein unbegrenztes Speicherlimit"
+
+#: pntemplates/.tmp_Files_user_uploadFile.htm.51329~:13
+msgid "Allowed extensions:"
+msgstr "Zugelassene Erweiterungen:"
+
+#: pntemplates/Files_init.htm:3 pntemplates/.tmp_Files_init.htm.59709~:3
+msgid "Files module installation"
+msgstr "Installation des Files-Modul"
+
+#: pntemplates/Files_init.htm:6 pntemplates/.tmp_Files_init.htm.59709~:6
+msgid "Welcome to Files module"
+msgstr "Willkommen zum Files-Modul"
+
+#: pntemplates/Files_init.htm:8 pntemplates/.tmp_Files_init.htm.59709~:8
+msgid ""
+"This module allow user to manage their own files.<br />Each user has a "
+"folder for his/her files.<br />This module needs two writable folders that "
+"have to be created."
+msgstr ""
+"Mit diesem Modul können Benutzer ihre eigenen Dateien verwalten.<br />Jeder "
+"Benutzer hat dafür einen Ordner.<br />Für diesen Modul müssen zwei Ordner "
+"mit Schreibberechtigung angelegt werden."
+
+#: pntemplates/Files_init.htm:10 pntemplates/.tmp_Files_init.htm.59709~:10
+msgid "Proceed with the installation"
+msgstr "Mit der Installation fortfahren"
+
+#: pntemplates/Files_init.htm:14 pntemplates/.tmp_Files_init.htm.59709~:14
+msgid ""
+"Check if the files folders in the server have been created and define them "
+"using the form below.<br />These folders will be used to save the files of "
+"the site and the users' files.<br />We recommend to locate them out of the "
+"public HTTP."
+msgstr ""
+"Bitte prüfen, ob die für das Modul erforderlichen Ordner auf dem Server "
+"angelegt wurden, diese müssen unten angegeben werden.<br />In diesen Ordnern "
+"werden Dateien für die Website sowie Benutzerdateien gespeichert.<br />Wir "
+"empfehlen, sie außerhalb des öffentlichen HTTP-Pfads anzulegen."
+
+#: pntemplates/Files_init.htm:19 pntemplates/.tmp_Files_init.htm.59709~:19
+msgid "Defining the files folders"
+msgstr "Angabe der Files-Ordner"
+
+#: pntemplates/Files_init.htm:22 pntemplates/.tmp_Files_init.htm.59709~:22
+msgid "Write the physical location of the folder in the server"
+msgstr "Physischer Pfad auf dem Server"
+
+#: pntemplates/Files_init.htm:27 pntemplates/.tmp_Files_init.htm.59709~:27
+msgid "Write the users' folder name"
+msgstr "Ordner für Benutzer"
+
+#: pntemplates/Files_init.htm:40 pntemplates/.tmp_Files_init.htm.59709~:40
+msgid "Checking if the files folders exist and they are writable"
+msgstr "Kontrolle der benötigten Ordner sowie der Schreibberechtigung"
+
+#: pntemplates/Files_init.htm:51 pntemplates/Files_init.htm:77
+#: pntemplates/.tmp_Files_init.htm.59709~:77
+#, php-format
+msgid "The folder <strong>%s</strong> is located in the correct place."
+msgstr "Der Ordner <strong>%s</strong> ist an der richtigen Stelle."
+
+#: pntemplates/Files_init.htm:56 pntemplates/Files_init.htm:86
+#: pntemplates/.tmp_Files_init.htm.59709~:56
+#: pntemplates/.tmp_Files_init.htm.59709~:86
+#, php-format
+msgid "The folder <strong>%s</strong> is not writable and it should be."
+msgstr "Der Ordner <strong>%s</strong> ist noch nicht beschreibbar."
+
+#: pntemplates/Files_init.htm:61 pntemplates/Files_init.htm:95
+#: pntemplates/.tmp_Files_init.htm.59709~:61
+#: pntemplates/.tmp_Files_init.htm.59709~:95
+#, php-format
+msgid "The folder <strong>%s</strong> is writable."
+msgstr "Der Ordner <strong>%s</strong> ist beschreibbar."
+
+#: pntemplates/Files_init.htm:69 pntemplates/.tmp_Files_init.htm.59709~:69
+#, php-format
+msgid "The folder <strong>%s/%s</strong> has not been found."
+msgstr "Der Ordner <strong>%s/%s</strong> wurde nicht gefunden."
+
+#: pntemplates/Files_init.htm:75 pntemplates/.tmp_Files_init.htm.59709~:75
+#, php-format
+msgid "The folder <strong>%s/%s</strong> is located in the correct place."
+msgstr "Der Ordner <strong>%s/%s</strong> ist an der richtigen Stelle."
+
+#: pntemplates/Files_init.htm:84 pntemplates/.tmp_Files_init.htm.59709~:84
+#, php-format
+msgid "The folder <strong>%s/%s</strong> is not writable and it should be."
+msgstr "Der Ordner <strong>%s/%s</strong> ist noch nicht beschreibbar."
+
+#: pntemplates/Files_init.htm:93 pntemplates/.tmp_Files_init.htm.59709~:93
+#, php-format
+msgid "The folder <strong>%s/%s</strong> is writable."
+msgstr "Der Ordner <strong>%s/%s</strong> ist beschreibbar."
+
+#: pntemplates/Files_init.htm:104 pntemplates/.tmp_Files_init.htm.59709~:104
+msgid ""
+"Define folders again. Remember that you have to create the folders after "
+"define them."
+msgstr ""
+"Bitte die Angabe der Ordner prüfen (vor diesem Prüfungsschritt müssen sie "
+"angelegt sein)."
+
+#: pntemplates/Files_init.htm:107 pntemplates/.tmp_Files_init.htm.59709~:107
+msgid "Make the folders writable and try again."
+msgstr ""
+"Für diese Ordner muss die Schreibberechtigung vergeben werden (danach erneut "
+"versuchen)."
+
+#: pntemplates/Files_init.htm:116 pntemplates/.tmp_Files_init.htm.59709~:116
+msgid "Proceed with the module installation"
+msgstr "Mit der Installation des Moduls fortfahren"
+
+#: pntemplates/Files_external_formHook.htm:5
+#: pntemplates/Files_admin_menu.htm:5
+#: pntemplates/.tmp_Files_external_formHook.htm.39789~:5
+#: pntemplates/.tmp_Files_external_formHook.htm.37745~:5
+msgid "Files"
+msgstr "Files"
+
+#: pntemplates/Files_external_formHook.htm:9
+#: pntemplates/.tmp_Files_external_formHook.htm.39789~:9
+#: pntemplates/.tmp_Files_external_formHook.htm.37745~:9
+msgid "Browse"
+msgstr "Durchsuchen"
+
+#: pntemplates/.tmp_Files_user_deleteListFile.htm.12378~:13
+#: pntemplates/Files_user_deleteListFile.htm:13
+msgid "Confirm deletion of:"
+msgstr "Löschen bestätigen:"
+
+#: pntemplates/.tmp_Files_user_deleteListFile.htm.12378~:30
+#: pntemplates/Files_user_deleteListFile.htm:30
+msgid "Confirmation prompt"
+msgstr "Bestätigung"
+
+#: pntemplates/Files_user_createDir.htm:9
+#: pntemplates/.tmp_Files_user_createDir.htm.87027~:8
+msgid "Create folder"
+msgstr "Ordner anlegen"
+
+#: pntemplates/Files_user_createDir.htm:11
+#: pntemplates/.tmp_Files_user_createDir.htm.87027~:10
+msgid "Folder name"
+msgstr "Name des Ordners"
+
+#: pntemplates/.tmp_Files_external_footer.htm.25769~:3
+#: pntemplates/Files_external_footer.htm:3
+msgid "Close window"
+msgstr "Fenster schließen"
+
+#: pntemplates/.tmp_Files_user_renameFile.htm.86581~:22
+#: pntemplates/Files_user_renameFile.htm:22
+msgid "New filename"
+msgstr "Neuer Dateiname"
+
+#: pntemplates/Files_external_header.htm:5
+msgid "User's files"
+msgstr "Dateien von Benutzern"
+
+#: pntemplates/.tmp_Files_init.htm.59709~:51
+#, php-format
+msgid "The folder <strong>%s</strong> is in the correct place."
+msgstr "Der Ordner <strong>%s</strong> ist an der richtigen Stelle."
+
+#: pntemplates/.tmp_Files_user_moveListFile.htm.67467~:9
+#: pntemplates/Files_user_moveListFile.htm:9
+msgid "Moving"
+msgstr "Verschieben"
+
+#: pntemplates/.tmp_Files_user_moveListFile.htm.67467~:21
+#: pntemplates/Files_user_moveListFile.htm:22
+msgid "Move to"
+msgstr "Verschieben nach"
+
+#: pntemplates/.tmp_Files_user_moveListFile.htm.67467~:24
+#: pntemplates/Files_user_moveListFile.htm:25
+msgid "(root)"
+msgstr "(Hauptverzeichnis)"
+
+#: pntemplates/Files_admin_conf.htm:5
+msgid "Modify configuration"
+msgstr "Konfiguration ändern"
+
+#: pntemplates/Files_admin_conf.htm:10
+msgid ""
+"You should move the file file.php from modules/Files to the zikula root "
+"directory"
+msgstr ""
+"Die Datei file.php sollte von modules/Files in das Hauptverzeichnis von "
+"Zikula verschoben werden"
+
+#: pntemplates/Files_admin_conf.htm:15
+msgid "You should remove the file file.php from modules/Files"
+msgstr "Die Datei file.php sollte aus modules/Files entfernt werden"
+
+#: pntemplates/Files_admin_conf.htm:25
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: pntemplates/Files_admin_conf.htm:28
+msgid "Files system physical path"
+msgstr "Physischer Pfad im Dateisystem"
+
+#: pntemplates/Files_admin_conf.htm:31 pntemplates/Files_admin_conf.htm:39
+msgid "The folder does not exist or it is not writable"
+msgstr "Den Ordner gibt es nicht oder er ist nicht beschreibbar"
+
+#: pntemplates/Files_admin_conf.htm:36
+msgid "Users' folder"
+msgstr "Ordner für Benutzerdateien"
+
+#: pntemplates/Files_admin_conf.htm:43
+msgid "Show hidden files"
+msgstr "Versteckte Dateien anzeigen"
+
+#: pntemplates/Files_admin_conf.htm:45
+msgid "Do not show to anyone"
+msgstr "Niemandem anzeigen"
+
+#: pntemplates/Files_admin_conf.htm:46
+msgid "Only show to administrators"
+msgstr "Nur Administratoren anzeigen"
+
+#: pntemplates/Files_admin_conf.htm:47
+msgid "Show to everyone"
+msgstr "Allen anzeigen"
+
+#: pntemplates/Files_admin_conf.htm:55
+msgid "Editable extensions (comma separated list)"
+msgstr "Editierbare Erweiterungen (durch Komma getrenne Liste)"
+
+#: pntemplates/Files_admin_conf.htm:59
+msgid "Maximum file size"
+msgstr "Maximale Dateigröße"
+
+#: pntemplates/Files_admin_conf.htm:62
+msgid "bytes"
+msgstr "Bytes"
+
+#: pntemplates/Files_admin_conf.htm:66
+msgid "Default width for images in editor"
+msgstr "Standardbreite für Bilder im Editor"
+
+#: pntemplates/Files_admin_conf.htm:69 pntemplates/Files_admin_conf.htm:76
+msgid "pixel"
+msgstr "Pixel"
+
+#: pntemplates/Files_admin_conf.htm:73
+msgid "Default height for images in editor"
+msgstr "Standardhöhe für Bilder im Editor"
+
+#: pntemplates/Files_admin_conf.htm:80
+msgid "Default disk quota"
+msgstr "Standard-Speicherlimit"
+
+#: pntemplates/Files_admin_conf.htm:94
+msgid "Disk quotas for groups"
+msgstr "Speicherlimit für Gruppen"
