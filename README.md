@@ -1,9 +1,7 @@
 Projecte Intraweb
 =================
 
-El projecte Intraweb proporciona un programari per crear Intranets / Webs de centre per a centres educatius.
-
-Podeu trobar més informació sobre el projecte a: http://projectestac.github.io/intraweb/
+El projecte Intraweb proporciona un programari per crear Intranets / Webs de centre per a centres educatius. Podeu trobar més informació sobre el projecte a: http://projectestac.github.io/intraweb/
 
 
 Instal·lació
