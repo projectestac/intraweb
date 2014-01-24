@@ -1,0 +1,227 @@
+
+body {
+	background-color: #CCC;
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* block element styles */
+table, div, p, input, textarea, select {
+	color: #000000;
+	font-size: 1em;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+td { vertical-align: top; }
+
+/* prevent textareas from forcing horizontal scroll bar */
+textarea { width: 99%; }
+
+/* remove border from linked images */
+a img { border: 0px; }
+
+/* inline element styles */
+h1, .pn-pagetitle {
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+}
+h2, .pn-title {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+}
+h3 {
+	font-size: 1em;
+	text-align: left;
+	margin: 3px;
+	padding: 0px 3px 2px 3px;
+	color: #FFF;
+	background: #669acc;
+}
+
+/* defaut styling for lists */
+ul {
+	margin-left: 1em;
+	padding-left: 0em;
+	text-indent: 0em;
+	list-style-type: square; 
+}
+
+/* anchor styles
+Note 1: Only add attributes to contextual (e.g. a.pn-title) styles that override the general style
+Note 2: When all anchors are to be styled the same don't create specific styles
+for :visited etc.
+*/
+a {
+	color: #0000FF;
+	text-decoration: none;
+	background: none;
+}
+
+/* form and control styles */
+.input {
+	border: 1px solid #CCC;
+	font-size: 10px;
+}
+
+/* PostNuke specific classes */
+.pn-menu {
+	text-align: center;
+}
+
+/* news styles */
+.newssummary1 {
+	padding: 5px;
+	padding-left: 10px;
+	border-left: 1px solid #CCC; 
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.newssummary2 {
+	padding: 10px;
+	border-left: 1px solid #CCC; 
+	border-bottom: 1px solid #CCC;
+	border-top: 0px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.newswrapper {
+	margin-bottom: 5px;
+}
+
+/* General styles */
+#themelogo {
+	margin: 0px;
+}
+#themefooter {
+	text-align: center;
+	font-size: 0.8em;
+	margin: auto;
+	margin-top: 10px
+}
+#menu { }
+#wrapper {
+	margin: auto;
+	padding: 2px;
+}
+.center_inside {
+	margin-top: 4px;
+	margin-bottom: 3px;
+	padding: 5px;
+	width: auto;
+}
+.left_inside{
+	margin: 4px 0px 5px 0px;
+}
+.right_inside{
+	margin: 4px 0px 5px 2px;
+}
+
+/* utility clearer class */
+.clearing {
+	height: 10px;
+	margin-bottom: 0px;
+	clear: both;
+}
+
+/* Imported from andreas08 for iw_qv */
+.theme_box{
+	margin:0 0 20px 0;
+	padding:10px;
+	border:1px solid #c0c0c0;
+	background-color:#fafbfc;
+	color:#505050;
+	line-height:1.5em;
+}
+
+/* Table styles based on style from the css table gallery 
+   STYLESHEET: CLEAR BLUE, AUTHOR: ROBERT HARTL */
+
+table.pn-datatable {
+	width:100%;
+	line-height:1.2em;
+	background-color:#fff;
+	border-collapse:collapse;
+	text-align:left;
+	letter-spacing:.1em;
+	margin-bottom:1em;
+}
+  
+table.pn-datatable thead th, 
+table.pn-datatable tfoot th, 
+table.pn-datatable tfoot td {
+	border-right: 1px solid #fff;
+	padding-left:5px;
+	font-variant:small-caps;
+	letter-spacing:0.1em;
+	color: #fff;
+	background: #669acc;
+}
+  
+table.pn-datatable tfoot th, 
+table.pn-datatable tfoot td {
+	border-top: 2pt double #009;
+}
+
+table.pn-datatable td, 
+table.pn-datatable th {
+	padding:4px;
+}
+
+table.pn-datatable tbody tr th, 
+table.pn-datatable tbody tr td {
+	border-bottom: 1px dotted #467aa7;
+}
+
+table.pn-datatable tbody tr:hover td, 
+table.pn-datatable tbody tr:hover th {
+	border-bottom: 1px solid #467aa7;
+}
+
+table.pn-datatable tbody td a, 
+table.pn-datatable tbody th a {
+	background: transparent;
+	text-decoration: none;
+	border:none;
+}
+
+table.pn-datatable tbody td a:hover, 
+table.pn-datatable tbody th a:hover {
+	background: transparent;
+}
+
+table.pn-datatable .odd {
+	background: #e3e3f4;
+}
+
+table.pn-datatable tbody tr:hover {
+	color: #333;
+	background: #e8eaec;
+}
+
+table.pn-datatable tbody tr th:hover {
+	background:#fff;
+}
+
+/*IW Menu*/
+
+#iw_menu li:hover{ /*Personalizable*/
+	background-color: #CEAF52 !important;
+	color: #000000 !important;
+}
+
+#iw_menu>ul>li.branch{ 
+	border-bottom: 1px solid #CEAF52 !important; /*Personalizable*/
+}
+
+#iw_menu li li:hover{ /*Personalizable*/
+	background-color: #CEAF52 !important;
+	color: #000000 !important;
+}
+
+#iw_menu li li.branch{ /*Personalizable*/
+	border-right: 3px solid #CEAF52 !important;
+}

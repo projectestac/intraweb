@@ -1,0 +1,27 @@
+
+<div class="entry">
+	<div class="entrytitle_wrap">
+		<div class="entrydate">
+			<div class="dateMonth"><!--[$info.time|date_format:"%b"]--></div>
+			<div class="dateDay"><!--[$info.time|date_format:"%d"]--></div>
+		</div>
+		<div class="entrytitle">  
+			<h1><!--[$preformat.title]--></h1> 
+		</div>
+		<div class="endate">
+			<!--[gt text="Posted by" domain="theme_iw_bluegrace"]--> <!--[$info.informant]--> <!--[gt text="on" domain="theme_iw_bluegrace"]--> <!--[$info.longdatetime]-->
+			<span><!--[articleadminlinks sid=$info.sid]--></span>
+		</div>
+	</div>
+	<div class="entrybody">
+		<div style="float:left; margin-right:10px;"><!--[$preformat.searchtopic]--></div>
+		<!--[$info.fulltext]-->
+	</div>
+	<div class="entrymeta">
+		<div class="postinfo"> 
+			<div style="float:left; width:200px; margin-left:30px;"><!--[$info.counter]--> <!--[gt text="reads" domain="theme_iw_bluegrace"]--></div>
+		</div>
+	</div>                
+</div>
+
+
