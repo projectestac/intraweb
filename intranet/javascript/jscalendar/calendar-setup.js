@@ -19,7 +19,7 @@
  * than modifying calendar.js itself).
  */
 
-// $Id: calendar-setup.js 22630 2007-08-25 17:10:40Z rgasch $
+// $Id$
 
 /**
  *  This function "patches" an input field (or other element) to use a calendar
@@ -120,6 +120,7 @@ Calendar.setup = function (params) {
 		}
 		if (update && p.singleClick && cal.dateClicked)
 			cal.callCloseHandler();
+	    cal.params.date = cal.date;
 	};
 
 	if (params.flat != null) {

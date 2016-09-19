@@ -1,59 +1,59 @@
 <?php
 /**
- * Zikula Application Framework
+ * Copyright Zikula Foundation 2009 - Zikula Application Framework
  *
- * @copyright (c) 2001, Zikula Development Team
- * @link http://www.zikula.org
- * @version $Id: function.footnotes.php 26497 2009-09-02 11:11:32Z drak $
- * @license GNU/GPL - http://www.gnu.org/copyleft/gpl.html
+ * This work is contributed to the Zikula Foundation under one or more
+ * Contributor Agreements and licensed to You under the following license:
  *
- * Xanthia plugin
+ * @license GNU/LGPLv3 (or at your option, any later version).
+ * @package Zikula
  *
- * This file is a plugin for Xanthia, the Zikula implementation of Smarty
- *
- * @package      Xanthia_Templating_Environment
- * @subpackage   Xanthia
+ * Please see the NOTICE file distributed with this source code for further
+ * information regarding copyright and licensing.
  */
 
 /**
  * Smarty function to display footnotes caculated by earlier modifier
  *
  * Example
- *   <!--[footnotes]-->
+ *   {footnotes}
  *
- * @author		 Jochen Roemling
- * @author       Mark West
- * @since        23/02/2004
- * @param        array       $params      All attributes passed to this function from the template
- * @param        object      &$smarty     Reference to the Smarty object
+ * @param       array       $params      All attributes passed to this function from the template
+ * @param       object      $smarty     Reference to the Smarty object
  */
-function smarty_function_footnotes($params, &$smarty)
+function smarty_function_footnotes($params, $smarty)
 {
-	// globalise the links array
-	global $link_arr;
+    // globalise the links array
+    global $link_arr;
 
     $text = '';
 
-	if (is_array($link_arr) && !empty($link_arr)) {
+    if (is_array($link_arr) && !empty($link_arr)) {
         $text .= '<ol>';
-		foreach ($link_arr as $key => $link) {
+        $link_arr = array_unique($link_arr);
+        foreach ($link_arr as $key => $link) {
             // check for an e-mail address
-			if (preg_match("/^([a-z0-9_]|\\-|\\.)+@(([a-z0-9_]|\\-)+\\.)+[a-z]{2,4}$/i", $link)) {
+            if (preg_match("/^([a-z0-9_]|\\-|\\.)+@(([a-z0-9_]|\\-)+\\.)+[a-z]{2,4}$/i", $link)) {
                 $linktext = $link;
                 $link = 'mailto:' . $link;
-			// append base URL for local links (not web links)
-            } elseif (!preg_match("/^http:\/\//i",$link))	{
-                $link = pnGetBaseURL().$link;
+            // append base URL for local links (not web links)
+            } elseif (!preg_match("/^http:\/\//i",$link))    {
+                $link = System::getBaseUrl().$link;
                 $linktext = $link;
-			} else {
+            } else {
                 $linktext = $link;
             }
             $linktext = DataUtil::formatForDisplay($linktext);
             $link = DataUtil::formatForDisplay($link);
-			// output link
-			$text .= '<li><a class="print-normal" href="'.$link.'">'.$linktext.'</a></li>'."\n";
-		}
+            // output link
+            $text .= '<li><a class="print-normal" href="'.$link.'">'.$linktext.'</a></li>'."\n";
+        }
         $text .= '</ol>';
-	}
-	return $text;
+    }
+
+    if (isset($params['assign'])) {
+        $smarty->assign($params['assign'], $text);
+    } else {
+        return $text;
+    }
 }

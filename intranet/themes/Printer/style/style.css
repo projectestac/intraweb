@@ -25,28 +25,27 @@ all other classes
 Note 2: we only specify individual styles for the pseudo classes
 e.g. (a:link, a:hover etc.) if styling these differently
 */
-a,
-a.pn-normal {
+a {
     color: #0000FF;
     font-size: 13px;
     text-decoration: underline;
     background: none;
 }
-a.pn-pagetitle,
+a.z-pagetitle,
 h1 a {
     font-size: 16px;
     font-weight: bold;
 }
-a.pn-title,
+a.z-title,
 h2 a {
     font-size: 14px;
     font-weight: bold;
 }
 a.z-sub,
-a.pn-sub {
+a.z-sub {
     font-size: 12px;
 }
-a.pn-logo {
+a.z-logo {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -54,37 +53,31 @@ a.pn-logo {
 }
 
 /* postnuke specific classes */
-.pn-logo {
+.z-logo {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 3px;
 }
-.pn-logo-small {
+.z-logo-small {
     font-size: 13px;
     font-weight: bold;
 }
-.pn-pagetitle, h1 {
+.z-pagetitle, h1 {
     font-size: 16px;
     font-weight: bold;
     text-align:center;
 }
-.pn-title, h2 {
+.z-title, h2 {
     font-size: 14px;
     font-weight: bold;
     text-align:center;
 }
-.pn-normal {
-    color: #000000;
-    font-size: 13px;
-    text-decoration: none;
-}
-.z-statusmsg,
-.pn-statusmsg {
-    color: Red;
+.z-statusmsg {
+    color: red;
     font-style: italic;
 }
 /* news styles */
-.pn-storytitle {
+.z-storytitle {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 3px;
