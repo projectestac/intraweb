@@ -1,3 +1,7 @@
+__ATENCIÓ: Aquest repositori conté la versió final del projecte Intraweb a juliol de 2016 i ja no és objecte de cap tipus d'actualització, manteniment o suport. El codi aquí publicat ho és només a efectes d'estudi i experimentació. En tractar-se d'un repositori de programari congelat en el temps, és probable que ja no compleixi els requisits de seguretat exigibles a qualsevol aplicació exposada a Internet.__
+
+***
+
 Projecte Intraweb
 =================
 
@@ -8,8 +12,6 @@ Els projecte va ser creat i mantingut per la unitat de projectes TAC del Departa
 El servei _Àgora-Intraweb_ va tancar definitivament el 15 de juliol de 2016, data en que finalitzà també el seu manteniment, suport i actualització per part del Departament d'Ensenyament.
 
 Aquest repositori conté la versió final del codi utilitzat a Àgora, lleugerament adaptat per permetre el seu ús com a plataforma de lloc únic (l'arquitectura d'Àgora és _multi-site_).
-
-__ATENCIÓ__: Aquest repositori conté la versió final del projecte Intraweb a juliol de 2016 i __ja no és objecte de cap tipus d'actualització, manteniment o suport__. El codi aquí publicat ho és només a efectes d'estudi i experimentació. En tractar-se d'un repositori de programari congelat en el temps, és probable que ja no compleixi els requisits de seguretat exigibles a qualsevol aplicació en línia.
 
 
 Instal·lació
