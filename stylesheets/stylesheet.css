@@ -324,6 +324,14 @@ footer a:hover {
   color: #444;
 }
 
+.warning {
+  border: 2px solid #cd5c5c;
+  background-color: #fffacd;
+  color: #4b0082;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
 /* MISC */
 .clearfix:after {
   clear: both;
